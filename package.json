@@ -1,0 +1,29 @@
+{
+  "name": "personalityInsights",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katenorquay/personalityInsights.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katenorquay/personalityInsights/issues"
+  },
+  "homepage": "https://github.com/katenorquay/personalityInsights#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "unirest": "^0.5.1"
+  }
+}
